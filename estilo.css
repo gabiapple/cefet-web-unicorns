@@ -1,0 +1,93 @@
+body {
+  margin: 0px;
+}
+
+h1 {
+  font-family: "Kaushan Script";
+  font-size: 36px;
+}
+
+h2 {
+  font-family: "Times New Roman";
+  font-size: 24px;
+}
+
+#verdade img {
+  width: 310px;
+  margin-right: 13px;
+  float: left;
+}
+
+#cabecalho {
+  background-color: #6175f0;
+  color: white;
+  padding: 20px 0px 13px 34px;
+}
+
+#verdade {
+  color: black;
+  float: right;
+}
+
+#hoje {
+  background-color: #f8cef7;
+  width: 405px;
+  float: right;
+  font-family: "Times New Roman";
+  text-align: center;
+  padding: 20px 35px 30px 35px;
+  border: 1px #ff56fb;
+  border-style: solid;
+  margin-right: 25px;
+}
+
+#hoje h3 {
+  font-family: "Times New Roman";
+  font-size: 18px;
+}
+
+#hoje img {
+  width: 112px;
+  height: 112px;
+  display: block;
+  margin: 0 auto;
+}
+
+#hoje p {
+  text-align: center;
+}
+
+p {
+  font-family: "Arial";
+  font-size: 14px;
+}
+
+#musica >p{
+  padding-left: 12px;
+}
+
+#musica h2 {
+  margin-left: 12px;
+}
+
+#musica > p:nth-child(2n+1) {
+  padding-left: 34px;
+  margin-left: 12px;
+}
+
+
+#musica .destacado {
+  margin-left: 0px;
+  padding-left: 12px;
+  background-color: #c3caf3;
+  color: #004a79;
+}
+
+#musica .destacado p:nth-child(2n) {
+  padding-left: 34px;
+}
+
+#verdade .referencia {
+  font-style: italic;
+  float: right;
+}
